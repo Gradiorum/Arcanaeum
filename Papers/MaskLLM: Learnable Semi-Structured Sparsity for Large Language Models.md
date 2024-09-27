@@ -39,7 +39,7 @@ MaskLLM presents an advanced, scalable approach to imposing semi-structured spar
 MaskLLM is a pivotal advancement in model pruning techniques for large language models, offering both theoretical innovations and practical benefits. It is highly recommended for researchers and practitioners focused on optimizing LLMs for efficiency and deployment in real-world scenarios.
 
 ## Application to Domain-Specific Fine-Tuned LLMs
-Given an arbitrary fine-tuned LLM for domain-specific applications, MaskLLM can be effectively applied to optimize the model for specific tasks. The process involves:
+Given an arbitrary fine-tuned LLM for domain-specific applications, I hypothesize MaskLLM can be effectively applied to optimize the model for specific tasks. The process involves:
 
 1. **End-to-End Training on Domain-Specific Data:**
    - Utilize a domain-specific dataset to train MaskLLM, enabling it to learn sparsity masks that preserve the model's performance within that domain.
