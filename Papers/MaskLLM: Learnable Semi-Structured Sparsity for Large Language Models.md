@@ -45,8 +45,8 @@ Given an arbitrary fine-tuned LLM for domain-specific applications, I hypothesiz
    - Utilize a domain-specific dataset to train MaskLLM, enabling it to learn sparsity masks that preserve the model's performance within that domain.
    - Optionally integrate with datasets like FineWeb to enhance training or use them for evaluating perplexity post-masking.
 
-2. **Integration with Tools like FineWeb:**
-   - Incorporate frameworks or tools such as FineWeb to manage data pipelines, automate training steps, or provide additional fine-tuning capabilities that complement MaskLLM’s pruning process.
+2. **Train on FineWeb:**
+   - If there is a drop in perplexity by training only on domain-specific data, integrating samples from a dataset like FineWeb, should be able to offset this effect to a degree. The reason we do not want a drop in general perplexity, is we assume it would damage the model's ability to generalize outside of the training data slightly.
 
 3. **Performance Optimization:**
    - Apply MaskLLM to the fine-tuned LLM, achieving speedups and memory reductions tailored to the specific domain tasks.
