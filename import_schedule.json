@@ -1,0 +1,172 @@
+{
+  "phases": [
+    {
+      "phase_number": 0,
+      "phase_title": "Phase 0 - Foundations & Setup",
+      "phase_description": "Focus on environment setup, meta-learning techniques, and initial diagnostics."
+    },
+    {
+      "phase_number": 1,
+      "phase_title": "Phase 1 - Core Math & Classical ML",
+      "phase_description": "Dive into linear algebra, calculus, and basic machine learning approaches."
+    }
+  ],
+  "objectives": [
+    {
+      "phase_id": 1,
+      "objective_name": "Establish Effective Learning Practices",
+      "objective_description": "Learn Feynman Technique, spaced repetition, reflection habits.",
+      "completion_criteria": "Explain Feynman technique in own words; set up daily reflection in Arcanaeum."
+    },
+    {
+      "phase_id": 1,
+      "objective_name": "Baseline Self-Assessments",
+      "objective_description": "Complete baseline worksheets in linear algebra, calculus, basic Python/ML.",
+      "completion_criteria": "Identify top 2-3 weaknesses to address next."
+    },
+    {
+      "phase_id": 2,
+      "objective_name": "Linear Algebra Fundamentals",
+      "objective_description": "Vectors, matrices, systems of equations, eigenvalues, SVD.",
+      "completion_criteria": "Implement matrix ops, confirm SVD understanding via puzzle or mini-project."
+    },
+    {
+      "phase_id": 2,
+      "objective_name": "Calculus Essentials for ML",
+      "objective_description": "Derivatives, partial derivatives, gradient-based optimization.",
+      "completion_criteria": "Solve minimal gradient descent problem by hand; confirm with code."
+    }
+  ],
+  "tasks": [
+    {
+      "phase_id": 1,
+      "objective_id": 1,
+      "title": "Install Tools & Libraries",
+      "description": "Ensure Python, GPU drivers, CUDA, Arcanaeum are installed. Setup environment (conda or virtualenv).",
+      "date": "2025-01-10",
+      "status": "Pending",
+      "resources": [
+        "NVIDIA drivers",
+        "Conda environment instructions"
+      ],
+      "recurring": false,
+      "priority": "Medium",
+      "category": "Work",
+      "estimated_time": "2h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 1,
+      "objective_id": 1,
+      "title": "Learn Feynman/Spaced Repetition/Interleaving",
+      "description": "Read short articles and watch videos explaining these study methods. Decide how to incorporate daily reflection in Arcanaeum.",
+      "date": "2025-01-11",
+      "status": "Pending",
+      "resources": [
+        "https://fs.blog/feynman-technique/",
+        "Spacing/Interleaving article"
+      ],
+      "recurring": false,
+      "priority": "Medium",
+      "category": "Study",
+      "estimated_time": "1h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 1,
+      "objective_id": 2,
+      "title": "Linear Algebra Baseline Worksheet",
+      "description": "Complete baseline worksheet in linear algebra to identify knowledge gaps.",
+      "date": "2025-01-12",
+      "status": "Pending",
+      "resources": [
+        "worksheets/linear_algebra_baseline.pdf"
+      ],
+      "recurring": false,
+      "priority": "Medium",
+      "category": "Study",
+      "estimated_time": "1h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 1,
+      "objective_id": 2,
+      "title": "Calculus Baseline Worksheet",
+      "description": "Complete baseline worksheet in calculus to confirm readiness for deeper ML math.",
+      "date": "2025-01-13",
+      "status": "Pending",
+      "resources": [
+        "worksheets/calculus_baseline.pdf"
+      ],
+      "recurring": false,
+      "priority": "Medium",
+      "category": "Study",
+      "estimated_time": "1h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 2,
+      "objective_id": 3,
+      "title": "Study Vectors & Vector Spaces",
+      "description": "Read Strang's Ch. 1.1-1.2. Implement small coding examples to confirm understanding.",
+      "date": "2025-01-14",
+      "status": "Pending",
+      "resources": [
+        "Strang's Linear Algebra Book",
+        "Khan Academy vector tutorials"
+      ],
+      "recurring": false,
+      "priority": "Medium",
+      "category": "Study",
+      "estimated_time": "2h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 2,
+      "objective_id": 3,
+      "title": "Matrix Operations & Gaussian Elimination",
+      "description": "Implement a basic Gauss elimination in Python/C++. Possibly do a small puzzle on matrix transformations.",
+      "date": "2025-01-15",
+      "status": "Pending",
+      "resources": [
+        "Coding puzzle for matrix ops"
+      ],
+      "recurring": false,
+      "priority": "High",
+      "category": "Study",
+      "estimated_time": "3h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 2,
+      "objective_id": 4,
+      "title": "Derivatives & Differentiation Rules",
+      "description": "Focus on product, quotient, chain rules. Implement a small symbolic derivative or code snippet to verify correctness.",
+      "date": "2025-01-16",
+      "status": "Pending",
+      "resources": [
+        "Stewart's Calculus sections on differentiation",
+        "Python symbolic diff example"
+      ],
+      "recurring": false,
+      "priority": "Medium",
+      "category": "Study",
+      "estimated_time": "2h",
+      "completion_timestamp": ""
+    },
+    {
+      "phase_id": 2,
+      "objective_id": 4,
+      "title": "Partial Derivatives & Gradients",
+      "description": "Extend to multivariable calculus. Possibly do a small puzzle: optimize a 2D function by gradient descent manually, confirm with code.",
+      "date": "2025-01-17",
+      "status": "Pending",
+      "resources": [],
+      "recurring": false,
+      "priority": "High",
+      "category": "Study",
+      "estimated_time": "2h",
+      "completion_timestamp": ""
+    }
+  ]
+}

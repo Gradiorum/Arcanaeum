@@ -1,0 +1,204 @@
+{
+    "tasks": [
+        {
+            "title": "Linear Algebra - Vectors and Vector Spaces",
+            "description": "Study vectors, vector addition, and scalar multiplication from 'Linear Algebra and Its Applications' by Gilbert Strang, Sections 1.1-1.2.",
+            "date": "2024-12-05",
+            "status": "Ahead",
+            "resources": [
+                "Strang's Linear Algebra Textbook, Sections 1.1-1.2",
+                "https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors"
+            ]
+        },
+        {
+            "title": "Linear Algebra - Matrices and Matrix Operations",
+            "description": "Learn about matrices, matrix addition, multiplication, and transpose operations.",
+            "date": "2024-12-06",
+            "status": "Ahead",
+            "resources": [
+                "Strang's Linear Algebra Textbook, Sections 2.1-2.2",
+                "https://www.khanacademy.org/math/linear-algebra/matrix-transformations"
+            ]
+        },
+        {
+            "title": "Linear Algebra - Systems of Linear Equations",
+            "description": "Study solving systems of equations and Gaussian elimination methods.",
+            "date": "2024-12-07",
+            "status": "Ahead",
+            "resources": [
+                "Strang's Linear Algebra Textbook, Sections 1.3-1.4",
+                "https://www.khanacademy.org/math/linear-algebra/linear-systems-and-row-operations"
+            ]
+        },
+        {
+            "title": "Calculus - Functions, Limits, and Continuity",
+            "description": "Review functions, limits, and continuity as they apply to machine learning.",
+            "date": "2024-12-08",
+            "status": "Ahead",
+            "resources": [
+                "Stewart's Calculus Textbook, Selected Sections from Chapters 1-2",
+                "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity"
+            ]
+        },
+        {
+            "title": "Calculus - Derivatives and Differentiation Rules",
+            "description": "Learn differentiation rules, including the product, quotient, and chain rules.",
+            "date": "2024-12-09",
+            "status": "Ahead",
+            "resources": [
+                "Stewart's Calculus Textbook, Sections on Differentiation",
+                "https://www.khanacademy.org/math/calculus-1/cs1-derivatives"
+            ]
+        },
+        {
+            "title": "Calculus - Partial Derivatives and Gradients",
+            "description": "Understand partial derivatives and gradients in multivariable functions.",
+            "date": "2024-12-10",
+            "status": "Ahead",
+            "resources": [
+                "Stewart's Calculus Textbook, Sections on Partial Derivatives",
+                "https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives"
+            ]
+        },
+        {
+            "title": "Review Day",
+            "description": "Review all topics covered during the week.",
+            "date": "2024-12-11",
+            "status": "Ahead",
+            "resources": []
+        },
+        {
+            "title": "Linear Algebra - Eigenvalues and Eigenvectors",
+            "description": "Learn about eigenvalues and eigenvectors and their significance in machine learning.",
+            "date": "2024-12-12",
+            "status": "Ahead",
+            "resources": [
+                "Strang's Linear Algebra Textbook, Sections on Eigenvalues and Eigenvectors",
+                "https://www.khanacademy.org/math/linear-algebra/alternate-bases"
+            ]
+        },
+        {
+            "title": "Linear Algebra - Singular Value Decomposition (SVD)",
+            "description": "Study SVD and its applications in machine learning, such as dimensionality reduction.",
+            "date": "2024-12-13",
+            "status": "Ahead",
+            "resources": [
+                "Strang's Linear Algebra Textbook, Sections on SVD",
+                "https://www.khanacademy.org/math/linear-algebra/linear-algebra-singular-value-decomposition"
+            ]
+        },
+        {
+            "title": "Optimization - Gradient Descent",
+            "description": "Introduction to optimization techniques, focusing on gradient descent algorithms.",
+            "date": "2024-12-14",
+            "status": "Ahead",
+            "resources": [
+                "Lecture Notes on Optimization Methods in Machine Learning",
+                "https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html"
+            ]
+        },
+        {
+            "title": "Machine Learning - Andrew Ng's Course Week 1",
+            "description": "Start Andrew Ng's Machine Learning course on Coursera. Complete Week 1 lectures and quiz.",
+            "date": "2024-12-15",
+            "status": "Ahead",
+            "resources": [
+                "https://www.coursera.org/learn/machine-learning"
+            ]
+        },
+        {
+            "title": "Machine Learning - Linear Regression with One Variable",
+            "description": "Learn about cost functions and gradient descent in linear regression.",
+            "date": "2024-12-16",
+            "status": "Ahead",
+            "resources": [
+                "Andrew Ng's Course Week 2",
+                "https://www.coursera.org/learn/machine-learning"
+            ]
+        },
+        {
+            "title": "Machine Learning - Linear Regression with Multiple Variables",
+            "description": "Understand linear regression with multiple variables and feature scaling.",
+            "date": "2024-12-17",
+            "status": "Ahead",
+            "resources": [
+                "Andrew Ng's Course Week 3",
+                "https://www.coursera.org/learn/machine-learning"
+            ]
+        },
+        {
+            "title": "Review Day",
+            "description": "Review optimization techniques and linear regression concepts.",
+            "date": "2024-12-18",
+            "status": "Ahead",
+            "resources": []
+        },
+        {
+            "title": "Machine Learning - Logistic Regression",
+            "description": "Learn about logistic regression for classification tasks and decision boundaries.",
+            "date": "2024-12-19",
+            "status": "Ahead",
+            "resources": [
+                "Andrew Ng's Course Week 4",
+                "https://www.coursera.org/learn/machine-learning"
+            ]
+        },
+        {
+            "title": "Machine Learning - Neural Networks Basics",
+            "description": "Introduction to neural networks and forward propagation algorithms.",
+            "date": "2024-12-20",
+            "status": "Ahead",
+            "resources": [
+                "Andrew Ng's Course Week 4-5",
+                "https://www.coursera.org/learn/machine-learning"
+            ]
+        },
+        {
+            "title": "Machine Learning - Backpropagation Algorithm",
+            "description": "Understand the backpropagation algorithm and how neural networks learn.",
+            "date": "2024-12-21",
+            "status": "Ahead",
+            "resources": [
+                "Andrew Ng's Course Week 5",
+                "https://www.coursera.org/learn/machine-learning"
+            ]
+        },
+        {
+            "title": "Deep Learning - Introduction",
+            "description": "Begin studying deep learning concepts and architectures.",
+            "date": "2024-12-22",
+            "status": "Ahead",
+            "resources": [
+                "'Deep Learning' by Goodfellow, Bengio, and Courville, Chapter 1",
+                "https://www.deeplearningbook.org/"
+            ]
+        },
+        {
+            "title": "Deep Learning Frameworks - TensorFlow or PyTorch",
+            "description": "Install and set up TensorFlow or PyTorch; follow introductory tutorials.",
+            "date": "2024-12-23",
+            "status": "Ahead",
+            "resources": [
+                "https://www.tensorflow.org/tutorials",
+                "https://pytorch.org/tutorials/"
+            ]
+        },
+        {
+            "title": "GPU Programming - Introduction to CUDA",
+            "description": "Learn the basics of parallel computing and GPU programming with CUDA.",
+            "date": "2024-12-24",
+            "status": "Ahead",
+            "resources": [
+                "CUDA Programming Guide, Chapters 1-2",
+                "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html"
+            ]
+        },
+        {
+            "title": "Review Day",
+            "description": "Review deep learning concepts and GPU programming basics.",
+            "date": "2024-12-25",
+            "status": "Ahead",
+            "resources": []
+        }
+    ]
+}
